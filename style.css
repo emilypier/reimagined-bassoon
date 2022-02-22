@@ -1,0 +1,7 @@
+background: radial-gradient(
+  circle at @r(100%) @r(100%),
+  @m20(
+    @p(#60569e, #ebbf4d) calc(@n(-1) * 100% / @N),
+    @lp calc(@n * 100% / @N)
+  )
+);
